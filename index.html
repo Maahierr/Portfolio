@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>My Portfolio</title>
+</head>
+
+<body onload="preLoader()">
+    <div id="pre">
+        <div class="preloader"></div>
+    </div>
+
+    <div id="container">
+
+        <div class="dot"></div>
+        <div class="cursor"></div>
+        <nav>
+            <div class="logo d">
+               <a href="/">MY PORTFOLIO</a>
+            </div>
+            <div class="hamburger">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+            </div>
+            <ul class="nav-links">
+                <li><a class="d" href="#">About</a></li>
+                <li><a class="d" href="#">Projects</a></li>
+                <li><a class="d" href="#">Blog</a></li>
+                <li><a class="d" href="#">Contact Us</a></li>
+            </ul>
+        </nav>
+        <div class="main">
+            <div class="p1">
+                <div class="left">
+                    <h1 class="header d typewriter">It's Me ~Maahierr</h1><br><br>
+                    <p>I am an INTERMEDIATE <span class="h d">Web Developer</span> and <span class="h d">Python
+                            Programmer</span><br><br>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis
+                        facere porro, commodi ipsum
+                        enim illum, consequatur culpa tenetur odit iste fugit saepe quae sit quas non voluptatum quia
+                        veniam provident sint ex ea doloribus vero quidem. Neque debitis laboriosam repudiandae nemo
+                        excepturi quod ipsum sed earum labore, numquam dicta omnis. Quam ipsam at, laboriosam deleniti
+                        cum adipisci animi facere harum velit tempore corporis cumque necessitatibus omnis, recusandae
+                        esse vitae saepe, numquam beatae aspernatur. Dolorum quibusdam minus veritatis illum dolores,
+                        facilis fugiat praesentium sit corporis officiis numquam amet quo, voluptas alias reiciendis
+                        rerum quam expedita est libero. </p>
+                </div>
+                <div class="right">
+                    <img src="img/webdev.gif" alt="Intro Img" class="p1img d">
+                </div>
+            </div>
+
+            <div class="p2" id="about">
+                <h1 class="header d">
+                    <center>I am Fond Of</center>
+                </h1><br><br>
+                <h4 class="lang">
+                    <img id="show"><br><br>
+                    <p id="text" class="h d"></p><br><br>
+                    <img class="d" src="img/Python.svg" onclick="show1()"
+                        style="width: 100px; height: 75px; padding: 3px;">
+                    <img class="d" src="img/html.svg" onclick="show2()"
+                        style="width: 100px; height: 75px; padding: 3px;">
+                    <img class="d" src="img/css.svg" onclick="show3()"
+                        style="width: 100px; height: 75px; padding: 3px;">
+                    <img class="d" src="img/js.svg" onclick="show4()" style="width: 100px; height: 75px; padding: 3px;">
+                    <img class="d" src="img/scratch.svg" onclick="show5()"
+                        style="width: 100px; height: 75px; padding: 3px;">
+                    <img class="d" src="img/unity.svg" onclick="show6()"
+                        style="width: 100px; height: 75px; padding: 3px;">
+                </h4>
+            </div>
+
+            <br><br><br>
+
+            <div class="p3" id="project">
+                <h1 class="header d">
+                    <center>My Projects</center>
+                </h1><br><br>
+                <div class="cards">
+
+                    <div class="card d"><a target="_blank" href="https://github.com/Maahierr/Snake-Game">
+                            <img src="img/snake.svg" alt="">
+                            Snake Game (Python)
+                        </a></div>
+
+
+                    <div class="card d"><a target="_blank" href="https://github.com/Maahierr/Your-Python-Assistant">
+                            <img src="img/ai.svg" alt="">
+                            Desktop Assistant (Python)
+                        </a></div>
+
+
+                    <div class="card d"> <a target="_blank" href="https://maahierr.github.io/Dino-Game/">
+                            <img src="img/dino.svg" alt="">
+                            Dino Game (HTML CSS JS)
+                        </a></div>
+
+
+                    <div class="card d"><a target="_blank" href="https://maahierr.github.io/Xino-Project-1/">
+                            <img src="img/alienware.svg" alt="">
+                            Alienware PCs (HTML CSS JS)
+                        </a></div>
+
+
+                    <div class="card d"><a target="_blank" href="Parking simulator.sb3">
+                            <img src="img/park.svg" alt="">
+                            Parking Game (SCRATCH)
+                        </a></div>
+
+
+                    <div class="card d"><a target="_blank" href="">
+                            <img src="img/portfolio.svg" alt="">
+                            My Portfolio (HTML CSS JS)
+                        </a></div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="script.js"></script>
+
+</html>
